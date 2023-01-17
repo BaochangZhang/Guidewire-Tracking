@@ -1,0 +1,10 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /home/baochang/Projects/Guidewire_Tracking_Segmentation/Detection_phase/data/raw_data/raw_train_guidewire_v2.txt
+val: /home/baochang/Projects/Guidewire_Tracking_Segmentation/Detection_phase/data/raw_data/raw_test_guidewire_v2.txt
+test: /home/baochang/Projects/Guidewire_Tracking_Segmentation/Detection_phase/data/raw_data/raw_test_guidewire_v2.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['Guidewire']
